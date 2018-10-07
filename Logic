@@ -29,4 +29,11 @@ class Logic {
             return true;
         }
     }
+    
+    // добавить нового удава
+    public function addSnake($snakes)
+    {
+        $this->snakes = $snakes;
+        return $this;
+    }
 }
